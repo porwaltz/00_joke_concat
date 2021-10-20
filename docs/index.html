@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Mama! Estoy programandoooooo!</p>
+    <p>Hola mundo</p>
+    <p>La calculadoramas malota</p>
+    <input type="text" id="prim"> + <input type="text" id="sec">
+    <button onclick="{concat()}">calcular</button>
+    <p>Respuesta =  <input type="text" id="res"></p>
+    <script>
+        function concat(){
+            let a = document.getElementById("prim").value
+            let b = document.getElementById("sec").value
+            let c = document.getElementById("res")
+            c.value = a + b
+        }
+    </script>
+</body>
+</html>
